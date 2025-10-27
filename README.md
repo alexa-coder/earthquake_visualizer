@@ -1,30 +1,33 @@
-# React + TypeScript + Vite
+# 🌍 Global Earthquake Tracker — Live Data
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive web app that visualizes real-time global earthquake activity using the USGS API and React-Leaflet.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Real-time earthquake data (USGS)
+- Interactive world map visualization
+- Filter by magnitude (Minor / Moderate / Strong)
+- Responsive design for desktop & mobile
+- Graceful error and loading states
 
-## Expanding the ESLint configuration
+## 🧰 Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- React.js
+- React-Leaflet + Leaflet
+- Fetch API
+- Modern CSS (Responsive + Clean UI)
 
-- Configure the top-level `parserOptions` property like this:
+## 💡 Future Enhancements
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: "latest",
-    sourceType: "module",
-    project: ["./tsconfig.json", "./tsconfig.node.json"],
-    tsconfigRootDir: __dirname,
-  },
-};
-```
+- Marker clustering
+- Heatmap visualization
+- Region-based filtering
+- Analytics charts (frequency & distribution)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## 🔗 Live Demo
+
+👉 [View on CodeSandbox](https://codesandbox.io/p/live/b67d385b-91ad-4bd3-82f3-d4e176b0f61a)
+
+## 🧑‍💻 Author
+
+Developed by Alex — Full Stack Developer.
