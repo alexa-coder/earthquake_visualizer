@@ -171,3 +171,49 @@
 .legend .red {
   background-color: #ef4444;
 }
+.filter-bar {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  background: #ffffffd8;
+  padding: 10px;
+  position: sticky;
+  top: 50px;
+  z-index: 1000;
+  flex-wrap: wrap;
+  backdrop-filter: blur(6px);
+  border-bottom: 1px solid #eee;
+}
+
+.filter-btn {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  background: white;
+  color: black;
+  cursor: pointer;
+  font-size: 13px;
+  transition: all 0.2s ease;
+}
+
+.filter-btn:hover {
+  background: #f5f5f5;
+}
+
+.filter-btn.active {
+  background: #3b82f6;
+  color: black;
+  border-color: #3b82f6;
+}
+
+/* Make sure the map stays visible on small screens */
+@media (max-width: 600px) {
+  .filter-bar {
+    gap: 4px;
+    padding: 8px;
+  }
+  .filter-btn {
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+}
