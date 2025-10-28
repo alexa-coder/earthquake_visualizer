@@ -26,7 +26,7 @@ An interactive web app that visualizes real-time global earthquake activity usin
 
 ## 🔗 Live Demo
 
-👉 [View on CodeSandbox](https://codesandbox.io/p/live/b67d385b-91ad-4bd3-82f3-d4e176b0f61a)
+👉 [View on CodeSandbox](https://codesandbox.io/p/live/fc440ba1-2bc1-423b-a9f2-de0ca11d7de6)
 
 ## 🧑‍💻 Author
 
