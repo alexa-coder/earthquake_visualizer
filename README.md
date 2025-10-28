@@ -30,4 +30,4 @@ An interactive web app that visualizes real-time global earthquake activity usin
 
 ## 🧑‍💻 Author
 
-Developed by Alex — Full Stack Developer.
+Developed by Alexandar — Full Stack Developer.
